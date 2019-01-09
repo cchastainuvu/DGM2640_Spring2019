@@ -6,7 +6,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="DisplayCameraOnObject.cs" t="Include" />
+          <e p="ChangeColorOnTrigger.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2640_CharacterDevelopment.sln" t="IncludeFlat" />
