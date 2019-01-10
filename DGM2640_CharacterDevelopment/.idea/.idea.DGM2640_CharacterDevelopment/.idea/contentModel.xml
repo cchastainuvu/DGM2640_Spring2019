@@ -6,7 +6,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="ChangeColorOnTrigger.cs" t="Include" />
+          <e p="AR" t="Include">
+            <e p="CharacterController" t="Include">
+              <e p="CharacterMove.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+              <e p="MovePatternNotGrounded.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ScriptableObjects" t="Include">
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="DGM2640_CharacterDevelopment.sln" t="IncludeFlat" />
