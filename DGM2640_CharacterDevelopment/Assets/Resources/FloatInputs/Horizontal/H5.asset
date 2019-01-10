@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24f54f235ca80047bc0b012c5003607, type: 3}
   m_Name: H5
   m_EditorClassIdentifier: 
-  value: 0
-  InputType: 
+  value: 5
+  InputType: Horizontal
