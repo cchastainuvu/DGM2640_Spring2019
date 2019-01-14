@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewFloat", menuName = "FloatData")]
-public class FloatData : ScriptableObject
+[CreateAssetMenu(fileName = "NewInt", menuName = "IntData")]
+public class IntData : ScriptableObject
 {
     public float value;
     
     public virtual float Value
     {
         get {return value;}
-        set { value = value; }
+        set {value = value;}
     }
 }
