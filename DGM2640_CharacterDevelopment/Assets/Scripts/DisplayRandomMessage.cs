@@ -9,7 +9,6 @@ using Random = UnityEngine.Random;
 //2 hours of work/troubleshooting.
 public class DisplayRandomMessage : MonoBehaviour
 {
-
 	public Text Message;
 	public StringData [] Greetings = new StringData[0];
 	
