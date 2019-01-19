@@ -12,6 +12,12 @@
               <e p="MovePattern.cs" t="Include" />
               <e p="MovePatternNotGrounded.cs" t="Include" />
             </e>
+            <e p="ID" t="Include">
+              <e p="MatchingTriggerID.cs" t="Include" />
+              <e p="NameID.cs" t="Include" />
+              <e p="ObjectID.cs" t="Include" />
+              <e p="SpecifiedTriggerID.cs" t="Include" />
+            </e>
           </e>
           <e p="DisplayCustomMessage.cs" t="Include" />
           <e p="DisplayRandomMessage.cs" t="Include" />

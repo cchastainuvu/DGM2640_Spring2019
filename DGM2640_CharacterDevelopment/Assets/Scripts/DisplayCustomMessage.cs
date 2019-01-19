@@ -10,20 +10,14 @@ public class DisplayCustomMessage : MonoBehaviour
     public Text Message;
     public StringData MyMessage;
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Message.text = MyMessage.output;
-        }
+    public void DisplayMessage()
+    {   
+            Message.text = MyMessage.output;     
     }
 
     public void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
             Message.text = null;
-        }
     }
 
 }

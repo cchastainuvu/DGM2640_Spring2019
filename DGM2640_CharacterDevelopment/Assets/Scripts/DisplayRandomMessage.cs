@@ -12,19 +12,13 @@ public class DisplayRandomMessage : MonoBehaviour
 	public Text Message;
 	public StringData [] Greetings = new StringData[0];
 	
-	public void OnTriggerEnter(Collider other)
-	{
-		if (other.CompareTag("Player"))
-		{	
+	public void DisplayRandom()
+	{	
 			Message.text = Greetings[Random.Range(0,Greetings.Length)].output;
-		}
 	}
 
 	public void OnTriggerExit(Collider other)
 	{
-		if (other.CompareTag("Player"))
-		{
 			Message.text = null;
-		}
 	}
 }
