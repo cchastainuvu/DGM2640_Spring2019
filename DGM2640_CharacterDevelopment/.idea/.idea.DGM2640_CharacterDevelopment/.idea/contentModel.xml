@@ -12,11 +12,11 @@
               <e p="MovePattern.cs" t="Include" />
               <e p="MovePatternNotGrounded.cs" t="Include" />
             </e>
+            <e p="DraggableOrthographic.cs" t="Include" />
             <e p="ID" t="Include">
               <e p="MatchingTriggerID.cs" t="Include" />
               <e p="NameID.cs" t="Include" />
               <e p="ObjectID.cs" t="Include" />
-              <e p="SpecifiedTriggerID.cs" t="Include" />
             </e>
           </e>
           <e p="DisplayCustomMessage.cs" t="Include" />
@@ -28,6 +28,7 @@
             <e p="StringData.cs" t="Include" />
             <e p="TextData.cs" t="Include" />
           </e>
+          <e p="SpecifiedTriggerID.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2640_CharacterDevelopment.sln" t="IncludeFlat" />

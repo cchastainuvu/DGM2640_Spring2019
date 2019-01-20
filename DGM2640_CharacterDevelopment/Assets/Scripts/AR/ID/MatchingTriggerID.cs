@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
+//References: AR TriggerID script.
+//15 minutes of work/troubleshooting.
 public class MatchingTriggerID : MonoBehaviour
 {
 	public NameID ID;

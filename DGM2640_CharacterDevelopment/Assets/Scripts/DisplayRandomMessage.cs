@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-//References: Senior classmate's assistance.
+//References: Senior classmate's assistance, professor critique.
 //2 hours of work/troubleshooting.
 public class DisplayRandomMessage : MonoBehaviour
 {

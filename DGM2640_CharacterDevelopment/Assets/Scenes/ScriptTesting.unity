@@ -746,6 +746,7 @@ GameObject:
   - component: {fileID: 1070249820}
   - component: {fileID: 1070249819}
   - component: {fileID: 1070249825}
+  - component: {fileID: 1070249826}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -879,6 +880,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1070249826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1070249818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ebcce8c6dd57648a4e75c00e403ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1520765287
 Prefab:
   m_ObjectHideFlags: 0
