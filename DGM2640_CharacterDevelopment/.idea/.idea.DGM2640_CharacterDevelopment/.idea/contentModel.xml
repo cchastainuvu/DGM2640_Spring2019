@@ -28,6 +28,7 @@
             <e p="StringData.cs" t="Include" />
             <e p="TextData.cs" t="Include" />
           </e>
+          <e p="SelectRandomID.cs" t="Include" />
           <e p="SpecifiedTriggerID.cs" t="Include" />
         </e>
       </e>
