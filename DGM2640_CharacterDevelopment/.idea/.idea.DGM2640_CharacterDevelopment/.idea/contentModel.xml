@@ -19,8 +19,13 @@
               <e p="ObjectID.cs" t="Include" />
             </e>
           </e>
+          <e p="ConfirmGuess.cs" t="Include" />
           <e p="DisplayCustomMessage.cs" t="Include" />
           <e p="DisplayRandomMessage.cs" t="Include" />
+          <e p="EventInvokes" t="Include">
+            <e p="InvokeOnStart.cs" t="Include" />
+            <e p="MouseClickEvent.cs" t="Include" />
+          </e>
           <e p="ScriptableObjects" t="Include">
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
@@ -28,6 +33,7 @@
             <e p="StringData.cs" t="Include" />
             <e p="TextData.cs" t="Include" />
           </e>
+          <e p="SelectAndConfirmID.cs" t="Include" />
           <e p="SelectRandomID.cs" t="Include" />
           <e p="SpecifiedTriggerID.cs" t="Include" />
         </e>
