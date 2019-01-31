@@ -7,6 +7,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AR" t="Include">
+            <e p="Behaviours.cs" t="Include" />
             <e p="CharacterController" t="Include">
               <e p="CharacterMove.cs" t="Include" />
               <e p="MovePattern.cs" t="Include" />
