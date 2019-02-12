@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class Behaviours : MonoBehaviour
 {
 
-    public UnityEvent OnAwake, OnStart, TriggerEnter, CollisionEnter, DestroyEvent;
+    public UnityEvent OnAwake, OnStart, TriggerEnter, CollisionEnter, DestroyEvent, VisibleEvent, InvisibleEvent;
     
     void Awake()
     {
@@ -32,5 +32,15 @@ public class Behaviours : MonoBehaviour
     private void OnDestroy()
     {
         DestroyEvent.Invoke();
+    }
+
+    private void OnBecameVisible()
+    {
+        VisibleEvent.Invoke();
+    }
+
+    private void OnBecameInvisible()
+    {
+        InvisibleEvent.Invoke();
     }
 }

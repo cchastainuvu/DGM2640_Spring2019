@@ -6,21 +6,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="AR" t="Include">
-            <e p="Behaviours.cs" t="Include" />
-            <e p="CharacterController" t="Include">
-              <e p="CharacterMove.cs" t="Include" />
-              <e p="MovePattern.cs" t="Include" />
-              <e p="MovePatternNotGrounded.cs" t="Include" />
-            </e>
-            <e p="DraggableOrthographic.cs" t="Include" />
-            <e p="ID" t="Include">
-              <e p="MatchingTriggerID.cs" t="Include" />
-              <e p="NameID.cs" t="Include" />
-              <e p="ObjectID.cs" t="Include" />
-            </e>
-          </e>
-          <e p="ConfirmGuess.cs" t="Include" />
           <e p="DisplayCustomMessage.cs" t="Include" />
           <e p="DisplayRandomMessage.cs" t="Include" />
           <e p="EventInvokes" t="Include">
@@ -37,6 +22,21 @@
           <e p="SelectAndConfirmID.cs" t="Include" />
           <e p="SelectRandomID.cs" t="Include" />
           <e p="SpecifiedTriggerID.cs" t="Include" />
+          <e p="Tools" t="Include">
+            <e p="Behaviours.cs" t="Include" />
+            <e p="CharacterController" t="Include">
+              <e p="CharacterMove.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+              <e p="MovePatternNotGrounded.cs" t="Include" />
+            </e>
+            <e p="DraggableOrthographic.cs" t="Include" />
+            <e p="ID" t="Include">
+              <e p="MatchingTriggerID.cs" t="Include" />
+              <e p="NameID.cs" t="Include" />
+              <e p="ObjectID.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Updating.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2640_CharacterDevelopment.sln" t="IncludeFlat" />
