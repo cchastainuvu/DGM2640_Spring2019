@@ -35,8 +35,8 @@
               <e p="NameID.cs" t="Include" />
               <e p="ObjectID.cs" t="Include" />
             </e>
+            <e p="Updating.cs" t="Include" />
           </e>
-          <e p="Updating.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2640_CharacterDevelopment.sln" t="IncludeFlat" />
