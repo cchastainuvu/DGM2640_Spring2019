@@ -30,11 +30,13 @@
               <e p="MovePatternNotGrounded.cs" t="Include" />
             </e>
             <e p="DraggableOrthographic.cs" t="Include" />
+            <e p="Flip.cs" t="Include" />
             <e p="ID" t="Include">
               <e p="MatchingTriggerID.cs" t="Include" />
               <e p="NameID.cs" t="Include" />
               <e p="ObjectID.cs" t="Include" />
             </e>
+            <e p="MoveCharacter.cs" t="Include" />
             <e p="Updating.cs" t="Include" />
           </e>
         </e>
