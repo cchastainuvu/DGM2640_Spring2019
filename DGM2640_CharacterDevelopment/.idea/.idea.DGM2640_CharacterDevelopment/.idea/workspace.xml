@@ -142,13 +142,14 @@
       <file leaf-file-name="MoveCharacter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tools/MoveCharacter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="330">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
-                <marker date="1550173758267" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550173758267" expanded="true" signature="122:468" ph="{...}" />
-                <marker date="1550173758267" expanded="true" signature="252:303" ph="{...}" />
-                <marker date="1550173758267" expanded="true" signature="321:466" ph="{...}" />
+                <marker date="1550174010752" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550174010752" expanded="true" signature="122:630" ph="{...}" />
+                <marker date="1550174010752" expanded="true" signature="252:303" ph="{...}" />
+                <marker date="1550174010752" expanded="true" signature="321:628" ph="{...}" />
+                <marker date="1550174010752" expanded="true" signature="467:622" ph="/* Jump will be worked on next class. ... */" />
               </folding>
             </state>
           </provider>
@@ -306,12 +307,12 @@
       <workItem from="1549999513962" duration="2229000" />
       <workItem from="1550001774178" duration="21000" />
       <workItem from="1550001806751" duration="1266000" />
-      <workItem from="1550172120208" duration="1623000" />
+      <workItem from="1550172120208" duration="1875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51332000" />
+    <option name="totallyTimeSpent" value="51584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,13 +547,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tools/MoveCharacter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="330">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <marker date="1550173758267" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550173758267" expanded="true" signature="122:468" ph="{...}" />
-            <marker date="1550173758267" expanded="true" signature="252:303" ph="{...}" />
-            <marker date="1550173758267" expanded="true" signature="321:466" ph="{...}" />
+            <marker date="1550174010752" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550174010752" expanded="true" signature="122:630" ph="{...}" />
+            <marker date="1550174010752" expanded="true" signature="252:303" ph="{...}" />
+            <marker date="1550174010752" expanded="true" signature="321:628" ph="{...}" />
+            <marker date="1550174010752" expanded="true" signature="467:622" ph="/* Jump will be worked on next class. ... */" />
           </folding>
         </state>
       </provider>

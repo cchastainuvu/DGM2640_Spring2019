@@ -19,5 +19,16 @@ public class MoveCharacter : MonoBehaviour
 		_position.z = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
 		_position.y = Gravity * Time.deltaTime;
 		_cc.Move(_position);
+		
+// Jump will be worked on next class.
+		
+//		if (_cc.isGrounded)
+//		{
+//			if (Input.GetKey(KeyCode.Space))
+//			{
+//				_position.y += 100F;
+//			}
+//		}
+		
 	}
 }
