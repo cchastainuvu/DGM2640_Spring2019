@@ -113,84 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &79887454
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 79887456}
-  - component: {fileID: 79887457}
-  - component: {fileID: 79887455}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &79887455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 79887454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3e42ef316fed4b4897de4b947c1b077, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Confirmation: {fileID: 437734582}
-  Confirm: {fileID: 11400000, guid: 6f914e5fa489b7447881dbbf905006ef, type: 2}
-  Decline: {fileID: 11400000, guid: 9bc5c2792dfa1254684cc33328bb6ccb, type: 2}
-  Selection: {fileID: 11400000, guid: ce3c743d3cd9ab14fb34dd4ea1b96e94, type: 2}
-  Options:
-  - {fileID: 11400000, guid: f117c3eb2b965a34b852acde0018763a, type: 2}
-  - {fileID: 11400000, guid: a53f91aec5c2a04419e02fad7b2998ee, type: 2}
-  - {fileID: 11400000, guid: 9c44dfcac2cdf5e428e63025251a2ee1, type: 2}
-  - {fileID: 11400000, guid: 847089ffdc040c445959963d49c18d07, type: 2}
-  - {fileID: 11400000, guid: 148866605b8a3ef43baba61a9ab5e9b9, type: 2}
---- !u!4 &79887456
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 79887454}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 261.75916, y: 230.837, z: -1.25}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &79887457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 79887454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b676e050367b50141a818287033b1360, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnStart:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 79887455}
-        m_MethodName: DetermineSelection
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &83796063
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +187,121 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &346756132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 346756134}
+  - component: {fileID: 346756133}
+  - component: {fileID: 346756135}
+  m_Layer: 0
+  m_Name: GameManager_Alt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &346756133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 346756132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7f6a98472e6b468fdf29d67f678c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Selection: {fileID: 0}
+  Options:
+  - {fileID: 11400000, guid: f117c3eb2b965a34b852acde0018763a, type: 2}
+  - {fileID: 11400000, guid: a53f91aec5c2a04419e02fad7b2998ee, type: 2}
+  - {fileID: 11400000, guid: 9c44dfcac2cdf5e428e63025251a2ee1, type: 2}
+  - {fileID: 11400000, guid: 847089ffdc040c445959963d49c18d07, type: 2}
+  - {fileID: 11400000, guid: 148866605b8a3ef43baba61a9ab5e9b9, type: 2}
+--- !u!4 &346756134
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 346756132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 303.05905, y: 60.995716, z: -4.6891575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &346756135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 346756132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8792191a4fd6347bcaad709f86ea63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 346756133}
+        m_MethodName: DetermineSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  TriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  TriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CollisionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  MouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  DestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Visible:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Invisible:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &437734580
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +461,6 @@ GameObject:
   - component: {fileID: 576770469}
   - component: {fileID: 576770468}
   - component: {fileID: 576770467}
-  - component: {fileID: 576770466}
   m_Layer: 0
   m_Name: 5
   m_TagString: Untagged
@@ -445,33 +481,6 @@ Transform:
   m_Father: {fileID: 1410538739}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &576770466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 576770464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a197adc3f445aa94d969b7da779e7cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 79887455}
-        m_MethodName: ConfirmPlayerGuess
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &576770467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,7 +788,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.215242
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -819,7 +828,6 @@ GameObject:
   - component: {fileID: 1192339542}
   - component: {fileID: 1192339541}
   - component: {fileID: 1192339540}
-  - component: {fileID: 1192339539}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -840,33 +848,6 @@ Transform:
   m_Father: {fileID: 1410538739}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1192339539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1192339537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a197adc3f445aa94d969b7da779e7cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 79887455}
-        m_MethodName: ConfirmPlayerGuess
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1192339540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,7 +1035,6 @@ GameObject:
   - component: {fileID: 1522378816}
   - component: {fileID: 1522378815}
   - component: {fileID: 1522378814}
-  - component: {fileID: 1522378813}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -1075,33 +1055,6 @@ Transform:
   m_Father: {fileID: 1410538739}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1522378813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1522378811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a197adc3f445aa94d969b7da779e7cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 79887455}
-        m_MethodName: ConfirmPlayerGuess
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1522378814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1182,7 +1135,6 @@ GameObject:
   - component: {fileID: 1675140295}
   - component: {fileID: 1675140294}
   - component: {fileID: 1675140293}
-  - component: {fileID: 1675140292}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -1203,33 +1155,6 @@ Transform:
   m_Father: {fileID: 1410538739}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1675140292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1675140290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a197adc3f445aa94d969b7da779e7cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 79887455}
-        m_MethodName: ConfirmPlayerGuess
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1675140293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1384,7 +1309,6 @@ GameObject:
   - component: {fileID: 1947144260}
   - component: {fileID: 1947144259}
   - component: {fileID: 1947144258}
-  - component: {fileID: 1947144257}
   m_Layer: 0
   m_Name: 3
   m_TagString: Untagged
@@ -1405,33 +1329,6 @@ Transform:
   m_Father: {fileID: 1410538739}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1947144257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1947144255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a197adc3f445aa94d969b7da779e7cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 79887455}
-        m_MethodName: ConfirmPlayerGuess
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1947144258
 MonoBehaviour:
   m_ObjectHideFlags: 0
