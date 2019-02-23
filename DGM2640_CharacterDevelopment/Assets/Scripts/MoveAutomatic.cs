@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+//References: Tools provided in lesson.
+//15 minutes of work/troubleshooting.
 public class MoveAutomatic : MonoBehaviour
 {
     private CharacterController _cc;
