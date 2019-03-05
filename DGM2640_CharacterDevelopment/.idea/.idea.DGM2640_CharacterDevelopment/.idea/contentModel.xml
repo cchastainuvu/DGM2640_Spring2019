@@ -32,6 +32,7 @@
               <e p="MovePattern.cs" t="Include" />
               <e p="MovePatternNotGrounded.cs" t="Include" />
             </e>
+            <e p="DoubleClickMove.cs" t="Include" />
             <e p="DraggableOrthographic.cs" t="Include" />
             <e p="Flip.cs" t="Include" />
             <e p="ID" t="Include">
@@ -39,7 +40,14 @@
               <e p="NameID.cs" t="Include" />
               <e p="ObjectID.cs" t="Include" />
             </e>
+            <e p="JumpCharacter.cs" t="Include" />
+            <e p="MoveBase" t="Include">
+              <e p="MoveBase.cs" t="Include" />
+              <e p="MoveSingleJump.cs" t="Include" />
+              <e p="MoveWithAxis.cs" t="Include" />
+            </e>
             <e p="MoveCharacter.cs" t="Include" />
+            <e p="MoveCharacterAlt.cs" t="Include" />
             <e p="Updating.cs" t="Include" />
           </e>
         </e>
