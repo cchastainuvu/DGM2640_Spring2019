@@ -16,7 +16,9 @@
           </e>
           <e p="IncreaseObjectScale.cs" t="Include" />
           <e p="MoveAutomatic.cs" t="Include" />
+          <e p="SceneMGR.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
+            <e p="ColorData.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
@@ -25,6 +27,7 @@
           </e>
           <e p="SelectRandomID.cs" t="Include" />
           <e p="SetObjectID.cs" t="Include" />
+          <e p="SetSpriteColor.cs" t="Include" />
           <e p="SpecifiedTriggerID.cs" t="Include" />
           <e p="Tools" t="Include">
             <e p="Behaviours.cs" t="Include" />
