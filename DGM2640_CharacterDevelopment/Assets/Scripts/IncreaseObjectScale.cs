@@ -14,5 +14,4 @@ public class IncreaseObjectScale : MonoBehaviour
     {
         transform.localScale += new Vector3(TransformX.value, TransformY.value, TransformZ.value);
     }
-
 }

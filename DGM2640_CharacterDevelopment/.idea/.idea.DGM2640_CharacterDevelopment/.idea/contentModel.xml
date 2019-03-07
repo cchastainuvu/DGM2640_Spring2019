@@ -28,6 +28,7 @@
           <e p="SpecifiedTriggerID.cs" t="Include" />
           <e p="Tools" t="Include">
             <e p="Behaviours.cs" t="Include" />
+            <e p="ChangeColor.cs" t="Include" />
             <e p="CharacterController" t="Include">
               <e p="CharacterMove.cs" t="Include" />
               <e p="MovePattern.cs" t="Include" />
