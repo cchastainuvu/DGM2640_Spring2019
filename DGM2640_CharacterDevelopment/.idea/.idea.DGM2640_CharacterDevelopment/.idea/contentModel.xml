@@ -14,6 +14,7 @@
             <e p="InvokeOnStart.cs" t="Include" />
             <e p="MouseClickEvent.cs" t="Include" />
           </e>
+          <e p="IncreaseObjectScale.cs" t="Include" />
           <e p="MoveAutomatic.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="FloatData.cs" t="Include" />
@@ -40,13 +41,13 @@
               <e p="NameID.cs" t="Include" />
               <e p="ObjectID.cs" t="Include" />
             </e>
-            <e p="JumpCharacter.cs" t="Include" />
             <e p="MoveBase" t="Include">
+              <e p="JumpCharacter.cs" t="Include" />
               <e p="MoveBase.cs" t="Include" />
+              <e p="MoveCharacter.cs" t="Include" />
               <e p="MoveSingleJump.cs" t="Include" />
               <e p="MoveWithAxis.cs" t="Include" />
             </e>
-            <e p="MoveCharacter.cs" t="Include" />
             <e p="MoveCharacterAlt.cs" t="Include" />
             <e p="Updating.cs" t="Include" />
           </e>
