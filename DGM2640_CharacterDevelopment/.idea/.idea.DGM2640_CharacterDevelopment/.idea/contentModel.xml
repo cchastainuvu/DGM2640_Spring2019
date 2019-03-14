@@ -32,6 +32,7 @@
           <e p="SetObjectID.cs" t="Include" />
           <e p="SetSpriteColor.cs" t="Include" />
           <e p="SpecifiedTriggerID.cs" t="Include" />
+          <e p="ToggleActivity.cs" t="Include" />
           <e p="Tools" t="Include">
             <e p="Behaviours.cs" t="Include" />
             <e p="ChangeColor.cs" t="Include" />
