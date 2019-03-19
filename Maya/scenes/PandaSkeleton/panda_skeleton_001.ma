@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: panda_skeleton_001.ma
-//Last modified: Sun, Mar 17, 2019 03:07:26 PM
+//Last modified: Sun, Mar 17, 2019 03:08:16 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "1E62DD01-4C7E-8AC0-CB31-F7890427D4C3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.011544392009144 3.7287015905837855 2.1756892708165996 ;
+	setAttr ".t" -type "double3" 2.0115443920092231 3.7287015905838152 2.1756892708166449 ;
 	setAttr ".r" -type "double3" -378.33835419752415 7619.7999999964559 3.1614598013779672e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0D21308D-449C-5BAA-9142-A2A7FE0607DD";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 6.4662031833536711;
+	setAttr ".coi" 6.466203183353775;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
