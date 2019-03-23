@@ -18,6 +18,7 @@
           <e p="IncreaseObjectScale.cs" t="Include" />
           <e p="MoveAutomatic.cs" t="Include" />
           <e p="ParentToCursor.cs" t="Include" />
+          <e p="PongController.cs" t="Include" />
           <e p="RaycastHoverEvent.cs" t="Include" />
           <e p="SceneMGR.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">

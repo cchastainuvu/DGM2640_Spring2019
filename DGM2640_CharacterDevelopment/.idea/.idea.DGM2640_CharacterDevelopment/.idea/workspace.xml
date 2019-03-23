@@ -11,17 +11,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenericRaycastEvent.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenericRaycastEvent.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenericRaycastEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <marker date="1552590798182" expanded="false" signature="6:104" ph="..." />
                 <marker date="1552590798182" expanded="true" signature="154:570" ph="{...}" />
                 <marker date="1552590798182" expanded="true" signature="264:567" ph="{...}" />
                 <marker date="1552590798182" expanded="true" signature="384:561" ph="{...}" />
                 <marker date="1552590798182" expanded="true" signature="439:551" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PongController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PongController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <marker date="1553327371292" expanded="true" signature="6:92" ph="..." />
+                <marker date="1553327371292" expanded="true" signature="137:527" ph="{...}" />
+                <marker date="1553327371292" expanded="true" signature="278:329" ph="{...}" />
+                <marker date="1553327371292" expanded="true" signature="346:525" ph="{...}" />
+                <marker date="1553327371292" expanded="true" signature="421:522" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveAutomatic.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveAutomatic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1550904761022" expanded="false" signature="6:44" ph="..." />
+                <marker date="1550904761022" expanded="true" signature="46:123" ph="/* References: Tools provided in lesson. ... */" />
+                <marker date="1550904761022" expanded="true" signature="166:1015" ph="{...}" />
+                <marker date="1550904761022" expanded="true" signature="377:440" ph="{...}" />
+                <marker date="1550904761022" expanded="true" signature="480:798" ph="{...}" />
+                <marker date="1550904761022" expanded="true" signature="590:792" ph="{...}" />
+                <marker date="1550904761022" expanded="true" signature="833:908" ph="{...}" />
+                <marker date="1550904761022" expanded="true" signature="938:1013" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,6 +157,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Updating.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventInvokes/MouseClickEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventInvokes/InvokeOnStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PongController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveAutomatic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetObjectID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -153,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TurnToTarget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AR/Draggable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AR/DraggableOrthographic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisplayRandomMessage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AR/ID/MatchingTriggerID.cs" />
@@ -204,6 +237,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastHoverEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleSpriteRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleActivity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PongControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PongController.cs" />
       </list>
     </option>
   </component>
@@ -295,12 +330,12 @@
       <workItem from="1552202785435" duration="1443000" />
       <workItem from="1552421772656" duration="4386000" />
       <workItem from="1552590493935" duration="2985000" />
-      <workItem from="1553319045920" duration="444000" />
+      <workItem from="1553319045920" duration="6729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85808000" />
+    <option name="totallyTimeSpent" value="92093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,8 +378,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SelectAndConfirmInt.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventInvokes/OnMouseClick.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DisplayCustomMessage.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -411,13 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveAutomatic.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -571,13 +597,50 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenericRaycastEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <marker date="1552590798182" expanded="false" signature="6:104" ph="..." />
             <marker date="1552590798182" expanded="true" signature="154:570" ph="{...}" />
             <marker date="1552590798182" expanded="true" signature="264:567" ph="{...}" />
             <marker date="1552590798182" expanded="true" signature="384:561" ph="{...}" />
             <marker date="1552590798182" expanded="true" signature="439:551" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PongControls.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveAutomatic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550904761022" expanded="false" signature="6:44" ph="..." />
+            <marker date="1550904761022" expanded="true" signature="46:123" ph="/* References: Tools provided in lesson. ... */" />
+            <marker date="1550904761022" expanded="true" signature="166:1015" ph="{...}" />
+            <marker date="1550904761022" expanded="true" signature="377:440" ph="{...}" />
+            <marker date="1550904761022" expanded="true" signature="480:798" ph="{...}" />
+            <marker date="1550904761022" expanded="true" signature="590:792" ph="{...}" />
+            <marker date="1550904761022" expanded="true" signature="833:908" ph="{...}" />
+            <marker date="1550904761022" expanded="true" signature="938:1013" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PongController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1553327371292" expanded="true" signature="6:92" ph="..." />
+            <marker date="1553327371292" expanded="true" signature="137:527" ph="{...}" />
+            <marker date="1553327371292" expanded="true" signature="278:329" ph="{...}" />
+            <marker date="1553327371292" expanded="true" signature="346:525" ph="{...}" />
+            <marker date="1553327371292" expanded="true" signature="421:522" ph="{...}" />
           </folding>
         </state>
       </provider>
