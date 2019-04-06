@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: panda_skeleton_002.ma
-//Last modified: Mon, Apr 01, 2019 12:15:37 AM
+//Last modified: Mon, Apr 01, 2019 12:16:32 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,15 +15,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "1E62DD01-4C7E-8AC0-CB31-F7890427D4C3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 9.9694626716378014 10.429552873973785 -14.389360248755654 ;
-	setAttr ".r" -type "double3" -20.738355319329386 10591.39999999155 0 ;
+	setAttr ".t" -type "double3" 1.4610092554608531 5.4641009639049116 12.199585156848414 ;
+	setAttr ".r" -type "double3" -9.338355319328155 10440.199999991552 -1.3355926222668078e-16 ;
 	setAttr ".rp" -type "double3" -9.3258734068513149e-15 1.1657341758564144e-14 -1.1368683772161603e-13 ;
 	setAttr ".rpt" -type "double3" -7.0819699553684688e-14 -8.4325234488244296e-14 7.5691744566410667e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0D21308D-449C-5BAA-9142-A2A7FE0607DD";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 19.09092158592459;
+	setAttr ".coi" 11.060108769500342;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
